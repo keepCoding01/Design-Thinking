@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Happy Birthday</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+
+        background: linear-gradient(45deg, #ff9a9e, #fecfef, #ffecd2);
+        color: #333;
+      }
+      header {
+        text-align: center;
+        padding: 50px 20px;
+        background: #ff9a9e;
+        color: white;
+      }
+      header h1 {
+        font-size: 3rem;
+        margin: 0;
+      }
+      header p {
+        font-size: 1.2rem;
+      }
+      .section {
+        padding: 50px 20px;
+        text-align: center;
+      }
+      .photo-section {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+      }
+      .photo-section img {
+        width: 230px;
+        height: 240px;
+        border-radius: 50%;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+      }
+      .photo-section img:hover {
+        transform: scale(1.05) translateY(-5px);
+        box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+      }
+      .photo-section .description {
+        max-width: 600px;
+        background: rgba(255, 255, 255, 0.8);
+        padding: 20px;
+        border-radius: 15px;
+        margin-left: 160px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      }
+      .gallery {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        gap: 20px;
+        margin: 20px 100px;
+      }
+      .gallery-item {
+        text-align: center;
+      }
+      .gallery img {
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+        border-radius: 10px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease;
+      }
+      .gallery img:hover {
+        transform: scale(1.05);
+      }
+      .gallery p {
+        margin-top: 10px;
+        font-size: 0.9rem;
+        color: #555;
+      }
+      .message-box {
+        max-width: 600px;
+        margin: 0 auto;
+        background: white;
+        border-radius: 10px;
+        padding: 20px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      }
+
+      .balloon {
+        position: absolute;
+        bottom: -100px;
+        animation: float 20s infinite;
+        z-index: -1;
+      }
+
+      @keyframes float {
+        0% {
+          bottom: -100px;
+          transform: rotate(0deg);
+        }
+        100% {
+          bottom: 100%;
+          transform: rotate(360deg);
+        }
+      }
+
+      .balloon img {
+        width: 70px;
+        height: 150px;
+      }
+      @media screen and (max-width: 768px) {
+        header h1 {
+          font-size: 2rem;
+        }
+        .section {
+          padding: 30px 15px;
+        }
+        .photo-section {
+          flex-direction: column; /* Ganti menjadi kolom di layar kecil */
+          align-items: center;
+        }
+        .photo-section img {
+          width: 220px;
+          height: 220px;
+        }
+        .photo-section .description {
+          margin-left: 0;
+        }
+        .gallery {
+          margin: 10px;
+        }
+        .gallery-item p {
+          font-size: 0.8rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <audio autoplay loop>
+      <source src="lagu.mp3" type="audio/mpeg" />
+    </audio>
+
+    <header>
+      <h1>
+        Happy Birthday Maniezzz<br />
+        🎉🎂Wani Aisyah🎂🎉
+      </h1>
+    </header>
+
+    <div class="balloon">
+      <img src="balon1.png" alt="Balloon 1" />
+      <img src="balon2.png" alt="Balloon 2" />
+      <img src="balon3.png" alt="Balloon 3" />
+    </div>
+
+    <section class="section photo-section">
+      <img src="foto1.jpeg" alt="Teman" />
+      <div class="description">
+        <h2>Tentang Wani🐾🐾</h2>
+        <p>
+          Wani?? We met in SMP, sekelas tapi tak sebangku. Awalnya kenal sama dia udah kaya tom and jerry. dulu aku mikir, ini orang agak aneh, dipanggil suka lari (emang aku hantu kali ya hahaha). Baru masuk ga langsung akrab alias butuh
+          proses cielah proses🤪. Singkat cerita, ntah kenapa endingnya malah sering ngobrol dibawah pohon depan kelas berdua dan berakhir suka ketawain hal" gajelas hahahhah. Ini dia waktunya (pulang sekolah), olweeeess banget bareng dan
+          momen yang ga kelupaan tuh dari teeett keluar pintu kelas sampe jalan perpisahan datang (pisah disimpang) ketawaaaaaaaa terosss sampe ngik ngik HAHAHAHA. asliiiii, hari hari yang ditunggu adalah pulang bareng karena pengen ketawa
+          sepanjang jalan kenanga hahahaha. yang paling aku inget ni orangnya bodoamatan kali sampe tas dengan aspal mau menyentuh juga ga peduli😭😭. <br /><br />wani?? kalo ketawa nampak gigi + mata sipit dan mukanya kaya dimajui gitu
+          asli ga hilang sampe sekarang woilah😭Tapi siapa sangka, dia punya lesung pipi yang dalam banget, sampe orang bisa salah fokus ngeliatnya (eaaaa). anaknya sungguh ekstropett ya ges ya + selalu buat suasana jadi ceriaaa. ya
+          berakhir pisah sekolah sampe sekarang ya (udah punya jalan masing-masing sih) eeitsss agar silatuhrami tidak terputus, adakah seratuss?? haha ga deng tetap jaga silaturahmi yaaa walaupun tau la ean hehe. OYAAA u look so beautiful
+          girlll sihiyyy udah jago besolek anak pariwisata satu ni yaaaa tapi cakep oke lanjut trossss. dan plisss jgn pacaran dulu yaaaa besss, nanti tuh ada masanya (klo sekarang belum tepat hahahhaa). jaga dirimu baekk" yaaa dan sekali
+          lagi selamat ulang tahun cantikkk🌹💓
+        </p>
+      </div>
+    </section>
+
+    <section class="section gallery-section">
+      <h2>Kenangan kita ni bessss😍🦋🫀🙆</h2>
+      <div class="gallery">
+        <div class="gallery-item">
+          <img src="foto2.jpeg" alt="Foto 1" />
+          <p>Ini waktu kita foto studio kelas😎<br />bg-nya julpandi hahaha<br />(maaffkeunn agak burik abis ngulik dari galeri peradaban)</p>
+        </div>
+        <div class="gallery-item">
+          <img src="foto3.jpeg" alt="Foto 2" />
+          <p>Ini waktu sweetseventeen kamyuuuu<br />🎂✨</p>
+        </div>
+        <div class="gallery-item">
+          <img src="foto6.jpeg" alt="Foto 3" />
+          <p>Ini habis healing mendadak🙂‍↔️🏍️<br />tahun brp ni ya udh lama x</p>
+        </div>
+        <div class="gallery-item">
+          <img src="foto4.jpeg" alt="Foto 4" />
+          <p>Ini waktu my birthday kemarin aww🥰💫</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section message-section">
+      <h2>Pesan dan Doa</h2>
+      <div class="message-box">
+        <p>
+          I hope u're always happy and surrounded by good people who love you. Dipermudah urusan rezeki dari segi apapun. Jangan pernah berhenti menjadi dirimu yang luar biasa dan jangan lalai 5 waktunyaaa.<br />
+          Okeyyy Happy Birthday maaaprenddd!🎂💓💓
+        </p>
+      </div>
+    </section>
+
+    <footer style="text-align: center; padding: 20px; background: #ff9a9e; color: white">
+      <p>Made with ❤️ for Wani</p>
+    </footer>
+  </body>
+</html>
